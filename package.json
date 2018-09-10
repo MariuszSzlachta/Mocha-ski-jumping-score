@@ -1,0 +1,17 @@
+{
+  "name": "ski-jumping-score",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculateDistancePoints.js",
+  "scripts": {
+    "test:distance": "mocha -w calculateDistancePoints.test.js",
+    "test:style": "mocha -w calculateStylePoints.test.js",
+    "test:total": "mocha -w calculateTotalPoints.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
