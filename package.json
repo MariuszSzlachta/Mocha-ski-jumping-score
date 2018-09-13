@@ -4,6 +4,7 @@
   "description": "",
   "main": "calculateDistancePoints.js",
   "scripts": {
+    "test:all": "mocha *.test.js",
     "test:distance": "mocha -w calculateDistancePoints.test.js",
     "test:style": "mocha -w calculateStylePoints.test.js",
     "test:total": "mocha -w calculateTotalPoints.test.js"
